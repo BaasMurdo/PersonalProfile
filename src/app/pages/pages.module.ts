@@ -6,6 +6,7 @@ import { PagesComponent } from './pages.component';
 import { AboutComponent } from './about/about.component';
 import { GithubComponent } from './github/github.component';
 import { HomeComponent } from './home/home.component';
+import { SettingsComponent } from './settings/settings.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HomeComponent } from './home/home.component';
     PagesComponent,
     AboutComponent,
     GithubComponent,
-    HomeComponent
+    HomeComponent,
+    SettingsComponent
   ],
   imports: [
     CommonModule,
