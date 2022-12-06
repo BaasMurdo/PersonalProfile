@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { GithubComponent } from './github/github.component';
 import { HomeComponent } from './home/home.component';
 import { SettingsComponent } from './settings/settings.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SettingsComponent } from './settings/settings.component';
     AboutComponent,
     GithubComponent,
     HomeComponent,
-    SettingsComponent
+    SettingsComponent,
+    ProjectsComponent
   ],
   imports: [
     CommonModule,
